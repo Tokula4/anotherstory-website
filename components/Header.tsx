@@ -4,26 +4,26 @@ import Menu from './Menu'
 import Image from 'next/image'
 const Header = () => {
   return (
-    <div className=" h-20   px-4 md:px-8  xl:32  relative " >
-      <div className=" h-full flex items-center justify-between md:hidden " >
+    <div className="relative h-20 px-4 md:px-8 xl:32" >
+      <div className="flex items-center justify-between h-full text-white md:hidden" >
       {/* MOBILE */}
       <Link href="/" > <div className="text-2xl tracking-wide " >Another Story</div></Link>
       <Menu/>
       </div>
 
       {/* Bigger Screen */}
-      <div className=" bg-black text-white hidden md:flex items-center justify-between h-full  " >
+      <div className="items-center justify-between hidden h-full text-white bg-black md:flex" >
         {/* left */}
-        <div className=" " >
+        <div className="" >
         <Link href="/" >
          
-           <div className="text-2xl font-bold  tracking-wide " >Another Story</div>
+           <div className="text-2xl font-bold tracking-wide " >Another Story</div>
            </Link>
 
         </div>
         {/* Right */}
-        <div className="   font-bold space-x-4   " >
-        <Link href="" >Home page</Link>
+        <div className="space-x-4 font-bold " >
+        <Link href="" >Home </Link>
                   <Link href="" >About Us </Link>
                     <Link href="" >How to Vote</Link>
         </div>

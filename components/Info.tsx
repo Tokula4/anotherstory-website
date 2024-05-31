@@ -19,7 +19,7 @@ const Info = () => {
             
        
             <div className=" w"  >
-            <img src="/cover-img1.png"  alt="image"/>
+            <img src="/hero-img.png"  alt="image"/>
             </div>
          
             

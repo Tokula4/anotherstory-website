@@ -1,7 +1,10 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 import Menu from './Menu'
 import Image from 'next/image'
+import About from './About'
+import about from '@/app/about'
 const Header = () => {
   return (
     <div className="relative h-20 px-4 md:px-8 xl:32" >
@@ -24,7 +27,7 @@ const Header = () => {
         {/* Right */}
         <div className="space-x-4 font-bold " >
         <Link href="" >Home </Link>
-                  <Link href="" >About Us </Link>
+                  <Link href="">About Us </Link>
                     <Link href="" >How to Vote</Link>
         </div>
       </div>

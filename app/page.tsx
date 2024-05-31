@@ -15,7 +15,7 @@ export default function Home() {
     <More/>
 
     <Info/>
-    <Footer/>
+   
 
     </>
    

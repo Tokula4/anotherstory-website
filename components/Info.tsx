@@ -2,32 +2,29 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <section className="">
-    <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl  text-[#eda347] ">Watch Our Show  <span className="text-[#eda347]" > Now On Youtube</span> </h1>
-            <p className="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-black">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
-          
-            <a href="https://www.youtube.com/channel/UCBAkvJn6xxlhCppcE5zsJVg" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                Watch Our Video
-            </a> 
-            <a href="https://www.youtube.com/channel/UCBAkvJn6xxlhCppcE5zsJVg" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 ">
-            <img src='/youtube-img.png' width={30} height={30} className="cursor-pointer"/>
-            </a> 
-        </div>
-        <div className="hidden lg:mt-0 lg:px-5 lg:col-span-5 lg:flex">
-            
-       
-            <div className=" w"  >
-            <img src="/hero-img.png"  alt="image"/>
-            </div>
-         
-            
-        </div> 
+    <>
+    <section className="bg-white border ">
+    <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="font-light text-black sm:text-lg ">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-black ">More about Us</h2>
+            <p className="mb-4">Welcome to Another Story!
+Hello and welcome to Another Story, your go-to destination for all things entertainment! Whether you're a seasoned subscriber or just discovering our channel, we are excited to have you join our community.
 
-         
+Who We Are
+Another Story is a passionate entertainment enthusiast dedicated to bringing you the latest and greatest in the world of movies, TV shows, music, and pop culture. Our mission is to create engaging and informative content that keeps you entertained and in the loop with the entertainment industry's ever-evolving landscape.
+
+
+Join Us on This Journey
+Thank you for being a part of Another Story. Whether you’re here for the first time or have been with us since the beginning, we appreciate your support. Hit the subscribe button and turn o.</p>
+        </div>
+        <div className="grid grid-cols-2 gap-4 mt-8">
+            <img className="w-full rounded-lg" src="\cover-img4.png" alt="office content 1"/>
+            <img className="mt-4 w-full lg:mt-10 rounded-lg" src="/cover-img5.png" alt="office content 2"/>
+        </div>
     </div>
 </section>
+    </>
+    
   )
 }
 

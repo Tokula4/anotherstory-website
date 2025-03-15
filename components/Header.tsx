@@ -14,12 +14,14 @@ const Header = () => {
       </div>
 
       {/* Bigger Screen */}
-      <div className="items-center justify-between hidden h-full text-white bg-black md:flex" >
+      <div className="items-center justify-between hidden h-full text-black md:flex" >
         {/* left */}
         <div className="" >
         <Link href="/" >
          
-           <div className="text-2xl font-bold tracking-wide " >Another Story</div>
+           <div className="text-2xl font-bold tracking-wide " >
+            <img src='/logo.png' width={100} height={100} />
+           </div>
            </Link>
 
         </div>
@@ -27,7 +29,7 @@ const Header = () => {
         <div className="space-x-4 font-bold " >
         <Link href="" >Home </Link>
                   <Link href="/aboutpage">About Us </Link>
-                    <Link href="" >Vote Now </Link>
+                  
         </div>
       </div>
       
